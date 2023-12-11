@@ -1,6 +1,5 @@
-/* Instruments */
-import { counterSlice } from './slices'
+import { favouriteSlice } from './slices'
 
 export const reducer = {
-  counter: counterSlice.reducer,
+  favourities: favouriteSlice.reducer,
 }
